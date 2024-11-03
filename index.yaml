@@ -3,7 +3,7 @@ entries:
   logging-loki:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-03T12:41:45.70142+05:30"
+    created: "2024-11-03T12:48:50.325808+05:30"
     dependencies:
     - condition: web-app.enabled
       name: web-app
@@ -22,6 +22,6 @@ entries:
     name: logging-loki
     type: application
     urls:
-    - https://github.com/pranayraut11/helm-charts/logging-loki-0.1.0.tgz
+    - https://pranayraut11.github.io/helm-charts/logging-loki-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-03T12:41:45.700616+05:30"
+generated: "2024-11-03T12:48:50.325155+05:30"
