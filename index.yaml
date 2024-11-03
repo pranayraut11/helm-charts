@@ -3,7 +3,7 @@ entries:
   logging-loki:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-03T12:32:29.612051+05:30"
+    created: "2024-11-03T12:41:45.70142+05:30"
     dependencies:
     - condition: web-app.enabled
       name: web-app
@@ -18,10 +18,10 @@ entries:
       repository: file://charts/grafana
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: 3e1b7828a37d81894de563cc37e525adf56dee883cb1a1e3d9d7c463b4feffa4
+    digest: 4c5f4811a42c9ee12d427e67070b28de1df1ca654d94f21cb16d162fed3e19cc
     name: logging-loki
     type: application
     urls:
-    - https://github.com/pranayraut11/helm-charts/charts/logging-loki-0.1.0.tgz
+    - https://github.com/pranayraut11/helm-charts/logging-loki-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-03T12:32:29.611377+05:30"
+generated: "2024-11-03T12:41:45.700616+05:30"
